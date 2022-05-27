@@ -4,3 +4,30 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .lessons .col {
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    .text {
+        margin-bottom: 4rem;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+
+}
